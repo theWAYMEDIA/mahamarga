@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="faq-index">
+    <h1>{{ .Title }}</h1>
+
+    {{ if .Content }}
+    <div class="faq-description">{{ .Content }}</div>
+    {{ end }}
+
+    <div class="category-questions">
+        {{ range .Pages }}
+        <div class="question-card">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{ if .Params.quick_answer }}
+            <p>{{ .Params.quick_answer | truncate 150 }}</p>
+            {{ end }}
+            {{ if .Params.faq_category }}
+            <span class="category-tag">{{ .Params.faq_category | title }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

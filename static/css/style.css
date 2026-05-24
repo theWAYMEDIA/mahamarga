@@ -1,0 +1,413 @@
+/* ===================================================================
+   MAHAMARGA — महामार्ग
+   Indian Village Palette — soft saffron, leaf-lime, turmeric gold
+   =================================================================== */
+
+:root {
+  --saffron:    #C97B2A;   /* warm marigold-saffron — primary accent  */
+  --lime:       #7BA63C;   /* soft leaf-lime green — secondary accent */
+  --turmeric:   #D4A426;   /* muted turmeric yellow — tertiary accent */
+  --terracotta: #8B4210;   /* deep terracotta — header & dark elements */
+  --parchment:  #FEFAF0;   /* warm page background                    */
+  --cream:      #FFFDF5;   /* content card background                 */
+  --text-dark:  #2C1A06;   /* main body text                          */
+  --text-mid:   #6B4820;   /* secondary / muted text                  */
+  --border:     #E8C87A;   /* warm golden border                      */
+  --link:       #7A6010;   /* olive-gold links                        */
+  --link-hover: #C97B2A;   /* saffron on hover                        */
+  --h2-rule:    #7BA63C;   /* lime-green h2 underline                 */
+}
+
+/* ---- Reset ---- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ---- Body ---- */
+body {
+  font-family: Georgia, 'Noto Serif Devanagari', 'Noto Serif', serif;
+  line-height: 1.7;
+  color: var(--text-dark);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--parchment);
+}
+
+/* ---- Header & Navigation ---- */
+header {
+  background: var(--terracotta);
+  color: white;
+  padding: 1rem 0;
+  margin: -20px -20px 2rem -20px;
+  text-align: center;
+}
+
+nav { margin: 0; padding: 0; }
+
+nav a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #FFE8C0;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.92rem;
+  transition: background 0.25s, color 0.2s;
+}
+
+nav a:hover {
+  background: rgba(255, 232, 180, 0.18);
+  color: #FFFDF5;
+  text-decoration: none;
+}
+
+.external-icon { font-size: 0.8em; opacity: 0.7; margin-left: 0.2em; }
+
+/* ---- Main Content ---- */
+main {
+  background: var(--cream);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(139, 66, 16, 0.12);
+  border: 1px solid var(--border);
+}
+
+/* ---- Typography ---- */
+h1 {
+  color: var(--terracotta);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2 {
+  color: #5A3208;
+  font-size: 1.7rem;
+  margin: 2rem 0 1rem;
+  border-bottom: 2px solid var(--h2-rule);
+  padding-bottom: 0.4rem;
+}
+
+h3 {
+  color: var(--terracotta);
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.7rem;
+}
+
+h4 {
+  color: #5A3208;
+  font-size: 1.1rem;
+  margin: 1.2rem 0 0.5rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  text-align: justify;
+  color: var(--text-dark);
+}
+
+/* ---- Devanagari / Sanskrit rendering ---- */
+/* Hugo renders Devanagari inline — no special class needed.
+   This rule targets paragraphs that begin with Devanagari Unicode range. */
+p:lang(sa), .devanagari, .sanskrit-text {
+  font-family: 'Noto Serif Devanagari', Georgia, serif;
+  font-size: 1.05em;
+  line-height: 2.0;
+  color: #4A2C08;
+}
+
+/* ---- Links ---- */
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+
+/* ---- Logical Chain Box ---- */
+.logical-chain {
+  background: #FFF5E0;
+  border-left: 4px solid var(--saffron);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 6px 6px 0;
+}
+
+/* ---- Related Concepts ---- */
+.related {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border);
+}
+
+/* ---- Lists ---- */
+.page-list { list-style: none; }
+
+.page-list li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #FFF8EB;
+  border-radius: 4px;
+  border-left: 3px solid var(--saffron);
+}
+
+ol, ul { margin: 1rem 0; padding-left: 2rem; }
+li { margin-bottom: 0.5rem; }
+
+/* ---- Footer ---- */
+footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 2px solid var(--border);
+  text-align: center;
+  color: var(--text-mid);
+  background: #F5EDD8;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+footer a { color: var(--link); }
+footer a:hover { color: var(--link-hover); }
+
+.glossary-highlight { font-weight: bold; }
+
+/* ---- Community Invite Box ---- */
+.community-invite {
+  background: linear-gradient(135deg, #FFF8E8 0%, #FDECC8 100%);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(139, 66, 16, 0.1);
+}
+
+.community-invite h3 { color: var(--terracotta); margin-bottom: 1rem; font-size: 1.25em; }
+.community-invite p { margin-bottom: 1rem; line-height: 1.6; }
+.community-invite ul { margin: 1rem 0; padding-left: 1.5rem; }
+.community-invite li { margin-bottom: 0.5rem; line-height: 1.5; }
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0.5rem 0 0;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, var(--saffron) 0%, var(--terracotta) 100%);
+  color: white;
+}
+
+.btn-primary:hover { color: white; }
+
+.btn-secondary {
+  background: linear-gradient(45deg, #D4F0A8 0%, #FFF0B8 100%);
+  color: var(--text-dark);
+}
+
+.btn-secondary:hover { color: var(--text-dark); }
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(45deg, var(--saffron) 0%, var(--terracotta) 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 1rem 0.5rem 0 0;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(139, 66, 16, 0.35);
+  text-decoration: none;
+  color: white;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  body { padding: 10px; }
+  header { margin: -10px -10px 1rem -10px; }
+  main { padding: 1rem; }
+  nav a { display: block; margin: 0.2rem 0; }
+  .btn, .cta-button { display: block; text-align: center; margin: 0.5rem 0; }
+}
+
+/* ---- Book Navigation ---- */
+.book-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  background: linear-gradient(135deg, #FFF8E8 0%, #FDE8C0 100%);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.book-navigation a {
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  flex: 1;
+  text-align: center;
+  min-width: 120px;
+}
+
+.nav-prev {
+  background: linear-gradient(45deg, #D4F0A8 0%, #FFF0B8 100%);
+  color: var(--text-dark);
+}
+
+.nav-main {
+  background: linear-gradient(45deg, var(--saffron) 0%, var(--terracotta) 100%);
+  color: white;
+  font-size: 1.1em;
+  flex: 2;
+}
+
+.nav-next {
+  background: linear-gradient(45deg, #D4F0A8 0%, #FFF0B8 100%);
+  color: var(--text-dark);
+}
+
+.nav-prev:hover, .nav-next:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: var(--text-dark);
+}
+
+.nav-main:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 123, 42, 0.4);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .book-navigation { flex-direction: column; text-align: center; }
+  .book-navigation a { flex: none; width: 100%; margin: 0.25rem 0; }
+}
+
+/* ---- Primary Teaching / Sanskrit Chapter ---- */
+.book-chapter { max-width: 720px; margin: 0 auto; padding: 2rem 0; }
+
+.chapter-part-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-mid);
+  margin-bottom: 0.5rem;
+}
+
+.chapter-subtitle {
+  font-size: 1.1rem;
+  color: var(--saffron);
+  font-style: italic;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Sanskrit verse separator lines */
+.book-chapter hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* Grammatical notes section — visually distinct */
+.book-chapter h3:has(+ ul),
+.book-chapter h3 + ul {
+  font-size: 0.95rem;
+}
+
+.buy-the-book {
+  margin: 3rem 0 1rem;
+  padding: 1.5rem;
+  background: #FFF8E8;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.buy-the-book p { margin-bottom: 1rem; color: var(--text-mid); }
+
+.chapter-copyright {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--text-mid);
+}
+
+/* ---- Wayist Saying / Block Quote ---- */
+blockquote.wayist-saying {
+  border-left: 4px solid var(--saffron);
+  background: #FFF8E8;
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: #4A2C08;
+}
+
+blockquote.wayist-saying p { margin-bottom: 0.3rem; text-align: left; }
+
+/* ---- Concept Grid ---- */
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.concept-card {
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  background: var(--cream);
+}
+
+.concept-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  border-radius: 8px 8px 0 0;
+}
+
+.foundational::before { background: var(--terracotta); }
+.structure::before    { background: var(--lime); }
+.laws::before         { background: var(--saffron); }
+.journey::before      { background: var(--turmeric); }
+.destination::before  { background: #9B6B2A; }
+
+.concept-card:hover {
+  box-shadow: 0 4px 14px rgba(139, 66, 16, 0.15);
+  transform: translateY(-2px);
+}
+
+.concept-card h3 { margin-top: 0; margin-bottom: 0.75rem; font-size: 1.05rem; }
+.concept-card p  { margin: 0; color: var(--text-mid); font-size: 0.93rem; line-height: 1.45; }
+.concept-card a  { text-decoration: none; color: inherit; }
+.concept-card a:hover { color: var(--saffron); }
+
+@media (max-width: 768px) {
+  .concept-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .concept-card { padding: 1.2rem; }
+}
