@@ -23,7 +23,7 @@ The Sanskrit texts of the MahaMarga Primary Teaching are particularly valuable f
 
 ## Begin with the Primary Teaching
 
-The [MahaMarga Primary Teaching](/primary-teaching/) is the best entry point. Start with Chapter 1 and follow the numbered sequence — each chapter builds on the last.
+The [MahaMarga Primary Teaching](/pustakein/primary-teaching/) is the best entry point. Start with Chapter 1 and follow the numbered sequence — each chapter builds on the last.
 
 ---
 

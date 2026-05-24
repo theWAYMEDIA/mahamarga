@@ -1,10 +1,12 @@
 ---
-title: "Blog"
-description: "News, reflections, and updates from the Mahamarga community"
+title: "ब्लॉग"
+description: "महामार्ग — विचार, शिक्षाएं, और दैनिक जीवन में theWAY"
 ---
 
-## Mahamarga Blog
+# ब्लॉग
 
-Updates, reflections, and news from the Mahamarga community and the development of the Sanskrit-English Primary Teaching.
+## theWAY पर विचार और शिक्षाएं
 
-*Content coming soon.*
+यहाँ आपको महामार्ग के जीवित ज्ञान की झलक मिलेगी — दार्शनिक चिंतन, व्यावहारिक अंतर्दृष्टि, और तितली के मार्ग पर अनुभव। यह ग्रंथों की गंभीरता के साथ-साथ रोज़मर्रा के जीवन की सरलता को जोड़ता है।
+
+महामार्ग का ज्ञान जीवित है — यह पुस्तकों तक सीमित नहीं, बल्कि हर उस पल में प्रकट होता है जब आप ध्यान से जीते हैं।

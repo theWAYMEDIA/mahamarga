@@ -1,68 +1,99 @@
 ---
-title: "Mahamarga — महामार्ग"
-description: "The ancient Sanskrit name for Wayism — the path of soul evolution toward spiritual immortality, documented in India for 5,000 years"
-keywords: ["mahamarga", "महामार्ग", "wayism", "sanskrit philosophy", "soul evolution", "butterfly path", "ancient path"]
+title: "MahaMarga | महामार्ग"
+description: "महामार्गियों का घर — तितली-मार्ग की शिक्षा"
 ---
 
-## महामार्ग | The Great Path
+## महामार्गियों का घर
 
-Mahamarga (महामार्ग) is the ancient Sanskrit name for the philosophy the English-speaking world knows as Wayism — the teaching that all human souls are on a sacred journey of evolution toward spiritual immortality.
-
-The name means, literally, *the great road* — the universal path walked by every soul who has ever incarnated on Earth.
-
-### The Ancient Path, Many Names
-
-This teaching is not new. It is the oldest existential philosophy known to humanity, documented for over five thousand years across every culture that looked deeply enough at reality. In Chinese it is **DaoFa** (道法). In Spanish, **Caminismo**. In German, **der Weg**. In English, **Wayism**. In Sanskrit — the ancient language in which it found perhaps its most precise and complete expression — **Mahamarga**.
-
-One teaching. Many languages. One path.
+*हर भाषा में "मार्ग" सबसे साधारण शब्द है। यही इस शिक्षा का रहस्य है।*
 
 ---
 
-## The MahaMarga Primary Teaching
+### महामार्ग क्या है?
 
-This site is the primary home of the **MahaMarga Primary Teaching** — a Sanskrit-English critical edition of the foundational Wayist text, rendered into classical Sanskrit for scholars, translators, and the permanent record.
+महामार्ग एक प्राचीन अस्तित्ववादी दर्शन है जो यह मानता है कि **सभी मनुष्य** एक पवित्र यात्रा पर हैं। हम इसे *तितली-मार्ग* कहते हैं — जैसे कैटरपिलर के परिश्रम से तितली उभरती है, वैसे ही आत्मा (जीव) के विकास-कार्य से अमर आत्मन प्रकट होता है। यही जीवन का उद्देश्य और अर्थ है।
 
-The Primary Teaching is a 128-chapter volume addressing the complete philosophical framework of the ancient path: the nature of existence, the purpose of human life, the laws governing soul evolution, the structure of the cosmos, and the practical path of spiritual development.
+यह केवल एक रूपक नहीं है — यह मानव अस्तित्व के वास्तविक उद्देश्य का वर्णन है: आत्माएं मनुष्य के रूप में जन्म लेती हैं ताकि पृथ्वी की दिव्यता की पाठशाला में सीख सकें, और अंततः अमर आत्मन के रूप में स्नातक हो सकें।
+
+महामार्गियों — जो इस मार्ग पर चलते हैं — ने सदा यही कहा है।
+
+### एक शिक्षा, अनेक नाम
+
+यह समझ अत्यंत प्राचीन है — किसी भी भाषा से पुरानी जिसमें आज इसे व्यक्त किया जाता है। यह प्रकट होती है: चीनी दर्शन में **DaoFa** (道法) के रूप में [daofa.org](https://daofa.org), संस्कृत और हिंदी में **महामार्ग** (MahaMarga) के रूप में यहाँ, जर्मन में **der Weg**, स्पेनिश में **Caminismo** के रूप में [caminismo.org](https://caminismo.org), जापानी में **道の教え** (Michibito) के रूप में [michibito.org](https://michibito.org), और अंग्रेज़ी में **Wayism** के रूप में [wayism.org](https://wayism.org)।
+
+हर संस्कृति ने अपनी भाषा के सबसे साधारण शब्द — *मार्ग, path, way, dao, weg, camino* — से इसे नाम दिया। यह संयोग नहीं है। जो सबसे मौलिक सत्य है, उसे सबसे साधारण शब्द ही धारण कर सकता है।
+
+---
+
+## मूल समझ
+
+महामार्ग में हम तीन मौलिक सत्यों को समझते हैं:
+
+1. **जीवन का उद्देश्य है** — हर मानवीय अनुभव आत्मिक विकास की सेवा करता है
+2. **मार्ग ही मंज़िल है** — विकास जीवन जीने से होता है, उसके बावजूद नहीं
+3. **ज्ञान रूपांतरित करता है** — आत्म-चिंतन अनुभव को आत्मिक विकास में बदलता है
 
 {{< wayist-saying >}}
-महामार्गी एतत् आर्य-प्रयोजनम् आलिङ्गेत् —  
-प्रतिदिनं वृद्धि-सेवा-अभ्यासाय अवसर-रूपेण जीवन्।
-
-*Let the Wayist embrace this noble purpose —*  
-*living each day as an opportunity for growth, service, and practice.*
+"आत्मा (जीव) कैटरपिलर की तरह आती है,
+और आत्मन तितली की तरह उभरता है।"
 {{< /wayist-saying >}}
 
 ---
 
-## For Scholars and Translators
+## महामार्ग क्या प्रदान करता है
 
-The Sanskrit text of the MahaMarga Primary Teaching has been carefully rendered to:
+### स्पष्ट समझ
 
-- Use classical Sanskrit grammar and Pāṇinian conventions
-- Distinguish precisely between key Wayist concepts (जीव *jīva* vs आत्मा *ātmā*; विकास *vikāsa*; अविच्छिन्न-सम्बन्ध *avicchinna-sambandha*)
-- Guard against common misreadings toward Advaita Vedanta, Brahmanical orthodoxy, or New Age frameworks
-- Provide extensive grammatical and theological notes explaining every translation decision
-- Serve as the authoritative reference text for all future translations into other languages
+**महामार्गी जीवन को वैसा देखते हैं जैसा वह है** — सांस्कृतिक अनुकूलन, राजनीतिक कथाओं, या लोकप्रिय मत से प्रभावित हुए बिना। महामार्ग एक तार्किक ढांचा प्रदान करता है जो ब्रह्मांड और उसमें आपके स्थान को समझाता है।
 
----
+**महामार्ग समझाता है:**
+- दुनिया अक्सर दुखद क्यों लगती है (यह एक पाठशाला है जहाँ सभी कक्षाएं एक ही परिसर में हैं)
+- लोग ज्ञान और करुणा में इतने भिन्न क्यों हैं (अलग-अलग आत्मिक आयु और पाठ्यक्रम की आवश्यकताएं)
+- मृत्यु के बाद क्या होता है और हम बार-बार जन्म क्यों लेते हैं
+- ब्रह्मांड कैसे काम करता है और ब्रह्मांडीय विकास में हमारी भूमिका क्या है
 
-## Begin Your Study
+### व्यावहारिक लाभ
 
-- **[MahaMarga Primary Teaching](/primary-teaching/)** — 128 chapters, Sanskrit-English critical edition
-- **[Philosophy](/philosophy/)** — Core concepts and logical framework
-- **[Practice](/practice/)** — Spiritual disciplines and daily practice  
-- **[Glossary](/glossary/)** — Sanskrit and Wayist terminology defined
+**महामार्गी संपूर्णता को पाँचों स्तरों पर अपनाते हैं** — केवल आर्थिक नहीं, बल्कि शारीरिक स्वास्थ्य, संबंध, ज्ञान, और आध्यात्मिक कल्याण। हम *उद्भू-कान्ति* का अनुसरण करते हैं — वह सिद्धांत जो कहता है कि परम सौंदर्य प्रामाणिकता और चरित्र है।
 
 ---
 
-{{< community-invite >}}
-### 🦋 Join the Wayist Community
+## क्या महामार्ग सबके लिए है?
 
-Explore the ancient path with fellow seekers worldwide at **wayist.life**.
+**हाँ भी, और नहीं भी।**
 
-- **Free EXPLORE trial** — no commitment
-- **Global community** — Wayists from every corner of the world
-- **Teachings, courses, and spiritual support**
+हाँ, क्योंकि **सभी मनुष्य तितली-मार्ग पर चलते हैं** — हर वह व्यक्ति जो कभी जिया है या जिएगा, आत्मिक विकास की इस यात्रा पर है। आप पहले से ही इस पर हैं, चाहे आप जानते हों या नहीं।
 
-<a href="https://wayist.life" class="cta-button">Start Your Free EXPLORE Trial</a>
-{{< /community-invite >}}
+किंतु नहीं, क्योंकि **हर कोई इस समझ के लिए तैयार नहीं होता।** महामार्ग के लिए सोच, आत्म-चिंतन, व्यक्तिगत उत्तरदायित्व, और ईमानदार आत्म-परीक्षण की आवश्यकता होती है।
+
+---
+
+## रहस्यवादियों का सार्वभौमिक मार्ग
+
+इतिहास में, हर संस्कृति और परंपरा के रहस्यवादी स्वतंत्र रूप से उसी मूल समझ तक पहुँचे जिसे हम महामार्ग कहते हैं:
+
+इस्लामी जगत से: **रूमी, इब्न अरबी, राबिया बसरी**
+भारत से: **कबीर, मीराबाई, जनाबाई, अक्का महादेवी, लल्लेश्वरी**
+चीन से: **सन बू'एर, वू काइलान, हान-शान**
+ईसाई रहस्यवाद से: **जॉन ऑफ द क्रॉस, मेइस्टर एकहार्ट**
+
+ये जागृत प्राणी — सदियों, भूगोल और संस्कृति से अलग — सभी अस्तित्व, उद्देश्य और दिव्य साझेदारी के मार्ग के बारे में एक जैसे निष्कर्ष पर पहुँचे। यह संयोग नहीं है — यह इस बात का प्रमाण है कि महामार्ग वास्तविकता का वर्णन करता है जैसी वह है।
+
+---
+
+## अन्वेषण प्रारंभ करें
+
+जब आप तितली-मार्ग को और गहराई से समझने के लिए तैयार हों:
+
+- **[मूल शिक्षा (theWAY)](/pustakein/primary-teaching/)** — आधारभूत ग्रंथ, 116 अध्याय
+- **[दर्शन](/darshan/)** — महामार्ग की दार्शनिक नींव
+- **[साधना](/sadhana/)** — दैनिक आध्यात्मिक अभ्यास
+- **[उपचार एवं ऊर्जा](/upchar/)** — ऊर्जा जागरूकता और आत्मिक उपचार
+
+---
+
+*जहाँ हैं वहीं से शुरू करें। मार्ग उन्हें प्रकट होता है जो उस पर चलते हैं।*
+
+---
+
+*यह हिंदी सामग्री एक अंतरराष्ट्रीय टीम द्वारा प्रेम और सावधानी से तैयार की गई है — किंतु हम जानते हैं कि भाषा की वह बारीकी जो मातृभाषी के कान को सहज लगती है, वह हमसे छूट सकती है। यदि आप हिंदी के जानकार हैं और कहीं कुछ अटपटा लगे — तो यह आपके लिए निमंत्रण है। इस शिक्षा को अपनी भाषा में घर जैसा महसूस कराना एक सेवा है।*

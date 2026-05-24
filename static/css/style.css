@@ -411,3 +411,35 @@ blockquote.wayist-saying p { margin-bottom: 0.3rem; text-align: left; }
   .concept-grid { grid-template-columns: 1fr; gap: 1rem; }
   .concept-card { padding: 1.2rem; }
 }
+
+/* ---- FAQ Grid ---- */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.faq-card {
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--saffron);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: var(--cream);
+}
+
+.faq-card:hover {
+  box-shadow: 0 4px 14px rgba(139, 66, 16, 0.15);
+  transform: translateY(-2px);
+}
+
+.faq-card h3 { margin-top: 0; margin-bottom: 0.75rem; font-size: 1.05rem; }
+.faq-card p  { margin: 0; color: var(--text-mid); font-size: 0.93rem; line-height: 1.45; }
+.faq-card a  { text-decoration: none; color: inherit; }
+.faq-card a:hover { color: var(--saffron); }
+
+@media (max-width: 768px) {
+  .faq-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .faq-card { padding: 1.2rem; }
+}

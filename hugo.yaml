@@ -1,9 +1,10 @@
 baseURL: 'https://mahamarga.org'
-languageCode: 'en-in'
-title: 'Mahamarga — महामार्ग'
+languageCode: 'hi'
+defaultContentLanguage: 'hi'
+title: 'MahaMarga | महामार्ग'
 
 params:
-  description: "Sanskrit-English primary teaching of Mahamarga — the ancient path of soul evolution known in India for 5,000 years"
+  description: "महामार्गियों का घर — तितली-मार्ग की शिक्षा"
   schemaType: "EducationalOrganization"
   aiCrawlable: true
 
@@ -11,23 +12,6 @@ params:
   cache_control: "no-cache, no-store, must-revalidate"
   pragma: "no-cache"
   expires: "0"
-
-  # FAQ-specific parameters
-  faq:
-    enable_search: true
-    categories:
-      - name: "Existential"
-        description: "Core questions about life's meaning and purpose"
-        icon: "question-circle"
-      - name: "Survival"
-        description: "Philosophy that works in extreme circumstances"
-        icon: "shield"
-      - name: "Relationships"
-        description: "Connection, trust, and love challenges"
-        icon: "heart"
-      - name: "Soul Development"
-        description: "Understanding your spiritual evolution"
-        icon: "butterfly"
 
 # Development server settings
 server:
@@ -52,11 +36,13 @@ outputs:
   page: ["HTML", "JSON"]
 
 permalinks:
-  philosophy: "/philosophy/:slug/"
-  faq: "/faq/:slug/"
-  books: "/books/:slug/"
+  darshan: "/darshan/:slug/"
+  sadhana: "/sadhana/:slug/"
+  sangeet: "/sangeet/:slug/"
+  upchar: "/upchar/:slug/"
+  prashn-uttar: "/prashn-uttar/:slug/"
+  pustakein: "/pustakein/:slug/"
   for-ai: "/for-ai/:slug/"
-  primary-teaching: "/primary-teaching/:slug/"
 
 # Main site navigation
 menu:
@@ -64,55 +50,37 @@ menu:
     - name: "🏠"
       url: "/"
       weight: 10
-    - name: "Philosophy"
-      url: "/philosophy/"
+    - name: "दर्शन"
+      url: "/darshan/"
       weight: 15
-    - name: "Practice"
-      url: "/practice/"
+    - name: "साधना"
+      url: "/sadhana/"
       weight: 20
-    - name: "Healing & Energy"
-      url: "/healing/"
+    - name: "संगीत"
+      url: "/sangeet/"
+      weight: 22
+    - name: "उपचार एवं ऊर्जा"
+      url: "/upchar/"
       weight: 25
-    - name: "FAQ"
-      url: "/faq/"
+    - name: "प्रश्न-उत्तर"
+      url: "/prashn-uttar/"
       weight: 30
-    - name: "Primary Teaching"
-      url: "/primary-teaching/"
-      weight: 33
-    - name: "Books"
-      url: "/books/"
+    - name: "पुस्तकें"
+      url: "/pustakein/"
       weight: 35
     - name: "For-AI"
       url: "/for-ai/"
       weight: 40
-    - name: "Blog"
+    - name: "ब्लॉग"
       url: "/blog/"
       weight: 45
-    - name: "Community"
+    - name: "समुदाय"
       url: "https://wayist.life"
       weight: 50
       params:
         external: true
         target: "_blank"
         rel: "noopener noreferrer"
-
-  # FAQ section navigation
-  faq:
-    - name: "All FAQs"
-      url: "/faq/"
-      weight: 10
-    - name: "Existential"
-      url: "/faq/existential/"
-      weight: 20
-    - name: "Survival"
-      url: "/faq/survival/"
-      weight: 30
-    - name: "Relationships"
-      url: "/faq/relationships/"
-      weight: 40
-    - name: "Soul Development"
-      url: "/faq/soul-development/"
-      weight: 50
 
 taxonomies:
   tag: 'tags'
