@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    <div class="blog-posts">
+    {{ range .RegularPagesRecursive.ByDate.Reverse }}
+    {{ if not .Draft }}
+    <article class="post-card">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p class="post-meta">
+            <span class="post-date">{{ .Date.Format "2 January 2006" }}</span>
+            {{ with .Params.author }}<span class="post-author"> · {{ . }}</span>{{ end }}
+            {{ with .Params.categories }}
+            <span class="post-cats"> ·
+                {{ range . }}<a href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}
+            </span>
+            {{ end }}
+        </p>
+        <p class="post-summary">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="read-more">पूरा पढ़ें →</a>
+    </article>
+    {{ end }}
+    {{ end }}
+    </div>
+</section>
+{{ end }}

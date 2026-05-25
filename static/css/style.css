@@ -443,3 +443,138 @@ blockquote.wayist-saying p { margin-bottom: 0.3rem; text-align: left; }
   .faq-grid { grid-template-columns: 1fr; gap: 1rem; }
   .faq-card { padding: 1.2rem; }
 }
+
+/* ---- Blog ---- */
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.post-card {
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--terracotta);
+  padding: 1.75rem;
+  border-radius: 8px;
+  background: var(--cream);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.post-card:hover {
+  box-shadow: 0 4px 14px rgba(139, 66, 16, 0.15);
+  transform: translateY(-2px);
+}
+
+.post-card h2 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.2rem; }
+.post-card h2 a { text-decoration: none; color: var(--header-bg); }
+.post-card h2 a:hover { color: var(--saffron); }
+
+.post-meta {
+  font-size: 0.85rem;
+  color: var(--text-mid);
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.post-date { color: var(--text-mid); }
+
+.post-author { color: var(--terracotta); font-style: italic; }
+
+.post-cats a, .category-tag {
+  display: inline-block;
+  background: #FFF0DC;
+  border: 1px solid var(--saffron);
+  color: #6B3810;
+  border-radius: 3px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin: 0 0.15rem;
+}
+
+.post-cats a:hover, .category-tag:hover {
+  background: var(--saffron);
+  color: #fff;
+}
+
+.post-summary {
+  color: var(--text-body);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  display: inline-block;
+  color: var(--saffron);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.read-more:hover { color: var(--terracotta); text-decoration: underline; }
+
+/* Blog single post */
+.blog-post { max-width: 720px; margin: 0 auto; padding: 2rem 0; }
+.blog-post h1 { font-size: 1.9rem; line-height: 1.3; margin-bottom: 0.5rem; }
+
+.post-content { margin-top: 2rem; line-height: 1.75; }
+.post-content h2 { color: var(--header-bg); margin-top: 2.5rem; }
+.post-content blockquote {
+  border-left: 4px solid var(--saffron);
+  background: #FFF8E8;
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: #4A2C08;
+}
+.post-content blockquote p { margin: 0.25rem 0; }
+.post-content hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+
+.post-tags {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.tag {
+  display: inline-block;
+  background: var(--parchment);
+  border: 1px solid var(--border);
+  color: var(--text-mid);
+  border-radius: 3px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin: 0.1rem 0.15rem;
+}
+
+.tag:hover { background: var(--border); color: var(--text-body); }
+
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.back-to-blog {
+  color: var(--saffron);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-to-blog:hover { color: var(--terracotta); text-decoration: underline; }
+
+/* Author pages */
+.author-page { max-width: 720px; margin: 0 auto; padding: 2rem 0; }
+
+@media (max-width: 768px) {
+  .post-card { padding: 1.25rem; }
+  .blog-post { padding: 1rem 0; }
+  .blog-post h1 { font-size: 1.5rem; }
+}

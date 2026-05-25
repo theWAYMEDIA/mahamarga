@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="blog-post">
+    <h1>{{ .Title }}</h1>
+
+    <div class="post-meta">
+        <span class="post-date">{{ .Date.Format "2 January 2006" }}</span>
+        {{ with .Params.author }}
+        <span class="post-author"> · <a href="{{ "/blog/authors/" | absURL }}{{ . | urlize }}/">{{ . }}</a></span>
+        {{ end }}
+        {{ with .Params.categories }}
+        <div class="post-cats">
+            {{ range . }}<a href="{{ "/categories/" | absURL }}{{ . | urlize }}/" class="category-tag">{{ . }}</a>{{ end }}
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+
+    {{ with .Params.tags }}
+    <div class="post-tags">
+        {{ range . }}<a href="{{ "/tags/" | absURL }}{{ . | urlize }}/" class="tag">#{{ . }}</a> {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="post-footer">
+        <a href="{{ "/blog/" | absURL }}" class="back-to-blog">← ब्लॉग पर वापस</a>
+    </div>
+</article>
+{{ end }}
