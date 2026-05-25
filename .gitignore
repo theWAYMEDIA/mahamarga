@@ -1,6 +1,10 @@
 # Hugo build output
 public/
 resources/
+.hugo_build.lock
+
+# Proton Drive sync conflicts
+*\(#\ Name\ clash*
 
 # OS
 .DS_Store
