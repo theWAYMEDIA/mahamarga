@@ -29,12 +29,8 @@ jobs:
           hugo-version: '0.148.2'
           extended: true
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-
       - name: Build Hugo site
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify --baseURL "https://mahamarga.org/"
 
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
