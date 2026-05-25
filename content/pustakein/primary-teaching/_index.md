@@ -4,8 +4,6 @@ description: "Sanskrit-English critical edition of the foundational Wayist text 
 keywords: ["mahamarga primary teaching", "sanskrit wayism", "mahāmārga śāstra", "wayist primary text"]
 ---
 
-## महामार्ग मूलशिक्षण | MahaMarga Primary Teaching
-
 The foundational text of the ancient Wayist teaching tradition, rendered into classical Sanskrit with facing English translation and extensive scholarly notes.
 
 This is the text that scholars, translators, and students of the ancient path will consult as the authoritative reference for all future translations and cultural adaptations of the Mahamarga teaching.

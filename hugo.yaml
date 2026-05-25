@@ -35,15 +35,6 @@ outputs:
   section: ["HTML", "RSS", "JSON"]
   page: ["HTML", "JSON"]
 
-permalinks:
-  darshan: "/darshan/:slug/"
-  sadhana: "/sadhana/:slug/"
-  sangeet: "/sangeet/:slug/"
-  upchar: "/upchar/:slug/"
-  prashn-uttar: "/prashn-uttar/:slug/"
-  pustakein: "/pustakein/:slug/"
-  for-ai: "/for-ai/:slug/"
-
 # Main site navigation
 menu:
   main:

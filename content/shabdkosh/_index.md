@@ -3,8 +3,6 @@ title: "शब्दकोश | Glossary"
 description: "MahaMarga के प्रमुख पदों की परिभाषाएं — अंग्रेज़ी और हिंदी में"
 ---
 
-# शब्दकोश | Glossary
-
 ## स्पष्ट परिभाषा के माध्यम से समझ
 *Understanding Through Clear Definition*
 
