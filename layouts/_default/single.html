@@ -3,8 +3,8 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 
-    <!-- Automatic Book Navigation (shows for pages in /books/ section) -->
-    {{ if eq .Section "books" }}
+    <!-- Automatic Book Navigation (shows for pages under a section with is_book: true) -->
+    {{ if .Parent.Params.is_book }}
         {{ partial "smart-book-nav.html" . }}
     {{ end }}
 

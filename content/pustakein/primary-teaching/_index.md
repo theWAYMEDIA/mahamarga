@@ -2,11 +2,17 @@
 title: "MahaMarga Primary Teaching"
 description: "Sanskrit-English critical edition of the foundational Wayist text — 116 chapters covering the complete philosophy of the ancient path"
 keywords: ["mahamarga primary teaching", "sanskrit wayism", "mahāmārga śāstra", "wayist primary text"]
+is_book: true
 ---
 
 The foundational text of the ancient Wayist teaching tradition, rendered into classical Sanskrit with facing English translation and extensive scholarly notes.
 
 This is the text that scholars, translators, and students of the ancient path will consult as the authoritative reference for all future translations and cultural adaptations of the Mahamarga teaching.
+
+### Before You Begin
+
+- [To the One Who Holds This Book](/pustakein/primary-teaching/foreword/) — *a word for seekers*
+- [Introduction to the Sanskrit Edition](/pustakein/primary-teaching/introduction/) — *for scholarly readers and translators*
 
 ### About this Edition
 
@@ -29,6 +35,10 @@ The text covers:
 - **The cosmos** — Sukhāvatī, the Divine Taras, the spirit realms
 - **Practical ethics** — humility (नम्रता), simplicity (सरलता), compassion (करुणा)
 - **Sacred arts** — mantras, yantras, mandalas
+
+### Back Matter
+
+- [Theological Index](/pustakein/primary-teaching/theological-index/) — *Sanskrit term definitions, translator notes, and English cross-reference — for scholars and translation teams*
 
 ---
 
