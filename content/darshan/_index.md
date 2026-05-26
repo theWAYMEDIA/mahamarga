@@ -21,19 +21,19 @@ description: "महामार्ग का दार्शनिक आधा
 द्विध्रुवी ऊर्जा जो समस्त अस्तित्व की रचना करती है — सृष्टि की मूल ध्वनि।
 {{< /concept-card >}}
 
-{{< concept-card type="foundational" title="theWAY — मार्ग" link="/darshan/theway/" >}}
+{{< concept-card type="foundational" title="theWAY — मार्ग" link="/darshan/the-way/" >}}
 ऊर्जा संरचना जो हमारे ब्रह्मांड को प्राकृतिक नियमों से धारण और संचालित करती है।
 {{< /concept-card >}}
 
-{{< concept-card type="structure" title="तीन क्षेत्र (Three Domains)" link="/darshan/teen-kshetra/" >}}
+{{< concept-card type="structure" title="तीन क्षेत्र (Three Domains)" link="/darshan/tri-kshetra/" >}}
 भौतिक (material), जीव-ऊर्जा (soul), और आत्मन-ऊर्जा (spirit) — अस्तित्व की पूर्ण संरचना। तीनों भिन्न और परस्पर सुस्पष्ट हैं।
 {{< /concept-card >}}
 
-{{< concept-card type="structure" title="मानव स्वभाव" link="/darshan/manav-svabhav/" >}}
+{{< concept-card type="structure" title="मानव स्वभाव" link="/darshan/manav-prakriti/" >}}
 मनुष्य क्या हैं — आत्मा-आत्मन के संयोग जो शरीर के माध्यम से दस मनों से काम करते हैं।
 {{< /concept-card >}}
 
-{{< concept-card type="structure" title="जीवन का उद्देश्य" link="/darshan/jeevan-uddeshya/" >}}
+{{< concept-card type="structure" title="जीवन का उद्देश्य" link="/darshan/jeevan-ka-uddeshya/" >}}
 पृथ्वी की दिव्यता की पाठशाला में मानवीय अनुभव के माध्यम से आत्मिक विकास।
 {{< /concept-card >}}
 
@@ -57,11 +57,11 @@ description: "महामार्ग का दार्शनिक आधा
 आत्मा-छात्र के परिश्रम से अमर आत्मन के उभरने की यात्रा — जैसे कैटरपिलर से तितली।
 {{< /concept-card >}}
 
-{{< concept-card type="journey" title="पुनर्जन्म और स्वर्ग-लोक" link="/darshan/punarjanm/" >}}
+{{< concept-card type="journey" title="पुनर्जन्म और स्वर्ग-लोक" link="/darshan/punarjanma-purushthan/" >}}
 पाठ्यक्रम पूर्णता के लिए जीवनों और विश्राम अवधियों के माध्यम से आत्मा की यात्रा।
 {{< /concept-card >}}
 
-{{< concept-card type="journey" title="दुख और बुराई" link="/darshan/dukh-burai/" >}}
+{{< concept-card type="journey" title="दुख और बुराई" link="/darshan/dushta-pida/" >}}
 कठिनाई को ब्रह्मांडीय अन्याय के बजाय पाठ्यक्रम के रूप में समझना।
 {{< /concept-card >}}
 
