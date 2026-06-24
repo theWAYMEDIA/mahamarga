@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-    <h1>{{ .Title }}</h1>
+    {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
     {{ .Content }}
 
     <!-- Automatic Book Navigation (shows for pages under a section with is_book: true) -->
